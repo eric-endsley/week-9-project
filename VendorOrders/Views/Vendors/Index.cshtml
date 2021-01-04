@@ -11,10 +11,9 @@
     <h3>There are currently no vendors with active orders</h3> 
 }
 
-@foreach (Vendor vendors in Model)
+@foreach (Vendor vendor in Model)
 {
-    <h3>@Model.Name</h3>
+    <h3><a href="/vendors/@vendor.Id">@vendor.Name></a></h3>
 }
 
 <a href="/vendors/new">Add a new Vendor</a>
-
