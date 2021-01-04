@@ -13,11 +13,13 @@ namespace VendorOrders.Controllers
             List<Vendor> allVendors = Vendor.GetAll();
             return View(allVendors);
         }
+        
         [HttpGet("/vendors/new")]
         public ActionResult New()
         {
             return View();
         }
+
         [HttpPost("/vendors")]
         public ActionResult Create(string vendorName, string vendorDescription)
         {
@@ -35,6 +37,7 @@ namespace VendorOrders.Controllers
             model.Add("orders", vendorOrders);
             return View(model);
         }
+
         [HttpPost("/vendors/{vendorId}/orders")]
         public ActionResult Create(int vendorId, string orderTitle, string orderDescription, string orderDate, int orderPrice)
         {
