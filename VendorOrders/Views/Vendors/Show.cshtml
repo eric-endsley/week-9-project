@@ -4,7 +4,22 @@
 
 @using VendorOrders.Models;
 
-<h1>@Model.Name</h1>
-<h3>@Model.Description</h3>
+<h1>@Model["vendor"].Name</h1>
+<h3>Description: @Model["vendor"].Description</h3>
 
+@if (@Model["orders"].Count == 0)
+{
+    <h3>This Vendor has no active Orders</h3>
+}
 
+@if(@Model["orders"].Count != 0)
+{
+    @foreach (Order order in @Model["orders"])
+    {
+        <ul>
+            <li>@order.Title</li>
+        </ul>
+    }
+}
+
+<a href='/vendors/@Model["vendor"].Id/orders/new'>Add a new Order</a>
