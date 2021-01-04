@@ -20,7 +20,8 @@ namespace VendorOrders.Models
 
         public static List<Vendor> GetAll()
         {
-            return _instances;
+            List<Vendor> fail = new List<Vendor> { };
+            return fail;
         }
 
         public static void ClearAll()
