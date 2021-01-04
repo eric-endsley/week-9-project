@@ -14,14 +14,14 @@ namespace VendorOrders.Tests
         }
 
         [TestMethod]
-        OrderConstructor_CreatesInstanceOfOrder_Order()
+        public void OrderConstructor_CreatesInstanceOfOrder_Order()
         {
             Order newOrder = new Order("", "", "", "");
             Assert.AreEqual(typeof(Order), newOrder.GetType());
         }
 
         [TestMethod]
-        OrderConstructor_SetsPropertiesToArgumentsPassed_OrderProperties()
+        public void OrderConstructor_SetsPropertiesToArgumentsPassed_OrderProperties()
         {
             Order newOrder = new Order("test title", "test description", "test price", "test date");
             Assert.AreEqual("test title", newOrder.Title);
