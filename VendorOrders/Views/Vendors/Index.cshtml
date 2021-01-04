@@ -1,3 +1,18 @@
 @{
     Layout = "_Layout";
 }
+
+@using VendorOrders.Models;
+
+<h1>All Vendors</h1>
+
+@if (@Model.Count == 0)
+{
+    <h3>There are currently no vendors with active orders</h3> 
+}
+
+@foreach (Vendor vendors in Model)
+{
+    <h3>@Model.Name</h3>
+}
+

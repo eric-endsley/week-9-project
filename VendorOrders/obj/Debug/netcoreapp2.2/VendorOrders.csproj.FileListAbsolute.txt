@@ -22,3 +22,8 @@ C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\De
 C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.RazorTargetAssemblyInfo.cs
 C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.Views.pdb
 C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.csproj.CopyComplete
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\Razor\Views\Orders\New.g.cshtml.cs
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\Razor\Views\Orders\Show.g.cshtml.cs
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\Razor\Views\Vendors\Index.g.cshtml.cs
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\Razor\Views\Vendors\New.g.cshtml.cs
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\Razor\Views\Vendors\Show.g.cshtml.cs

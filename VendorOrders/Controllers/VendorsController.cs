@@ -1,4 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using VendorOrders.Models;
 
 namespace VendorOrders.Controllers
 {
@@ -8,7 +11,7 @@ namespace VendorOrders.Controllers
         public ActionResult Index()
         {
             List<Vendor> allVendors = Vendor.GetAll();
-            return view(allVendors);
+            return View(allVendors);
         }
     }
 }
