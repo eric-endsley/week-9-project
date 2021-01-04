@@ -1880,6 +1880,31 @@
       "FilePath": "c:\\Users\\Eric Endsley\\OneDrive\\Desktop\\VendorOrders.Solution\\VendorOrders\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Eric Endsley\\OneDrive\\Desktop\\VendorOrders.Solution\\VendorOrders\\Views\\Vendors\\Show.cshtml",
+      "TargetPath": "Views\\Vendors\\Show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Eric Endsley\\OneDrive\\Desktop\\VendorOrders.Solution\\VendorOrders\\Views\\Orders\\New.cshtml",
+      "TargetPath": "Views\\Orders\\New.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Eric Endsley\\OneDrive\\Desktop\\VendorOrders.Solution\\VendorOrders\\Views\\Vendors\\Index.cshtml",
+      "TargetPath": "Views\\Vendors\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Eric Endsley\\OneDrive\\Desktop\\VendorOrders.Solution\\VendorOrders\\Views\\Vendors\\New.cshtml",
+      "TargetPath": "Views\\Vendors\\New.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Eric Endsley\\OneDrive\\Desktop\\VendorOrders.Solution\\VendorOrders\\Views\\Orders\\Show.cshtml",
+      "TargetPath": "Views\\Orders\\Show.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
