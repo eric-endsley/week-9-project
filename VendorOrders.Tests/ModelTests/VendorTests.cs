@@ -35,5 +35,13 @@ namespace VendorOrder.Tests
 
             Assert.AreEqual(1, result);
         }
+        [TestMethod]
+        public void GetAll_ReturnsEmptyList_VendorList()
+        {
+            List<Vendor> result = Vendor.GetAll();
+            List<Vendor> emptyList = new List<Vendor> { };
+
+            Assert.AreEqual(result, emptyList);
+        }
     }
 }
