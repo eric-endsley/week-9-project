@@ -17,13 +17,12 @@ namespace VendorOrders.Models
             Description = description;
             Date = date;
             Price = price;
+            _instances.Add(this);
         }
 
         public static List<Order> GetAll()
         {
-            Order fail = new Order("", "", "", 1);
-            List<Order> failure = new List<Order> { fail };
-            return failure; 
+            return _instances;
         }
 
         public static void ClearAll()
