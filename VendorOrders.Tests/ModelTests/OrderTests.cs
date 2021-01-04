@@ -41,7 +41,7 @@ namespace VendorOrders.Tests
         public void ClearAll_ClearsListOfOrders_Void()
         {
             Order newOrder = new Order("", "", "", 3);
-            List<Order> emptyList = new List<Order> { newOrder };
+            List<Order> emptyList = new List<Order> { };
 
             Order.ClearAll();
             List<Order> result = Order.GetAll();
