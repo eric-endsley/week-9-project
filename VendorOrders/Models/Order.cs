@@ -29,7 +29,7 @@ namespace VendorOrders.Models
         }
         public static Order Find(int inputId)
         {
-            return _instances[inputId - 1];
+            return _instances[inputId];
         }
 
         public static void ClearAll()
