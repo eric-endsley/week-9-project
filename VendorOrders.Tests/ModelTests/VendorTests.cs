@@ -65,5 +65,16 @@ namespace VendorOrder.Tests
 
             Assert.AreEqual(newVendor2, result);
         }
+        [TestMethod]
+        public void AddOrder_AddsOrderToOrdersListProperty_Order()
+        {
+            Vendor newVendor = new Vendor("test", "test");
+            Order newOrder = new Order ("test", "test", "test", 1);
+            newVendor.AddOrder(newOrder);
+
+            Order result = newVendor.Orders[0];
+
+            Assert.AreEqual(newOrder, result);
+        }
     }
 }
