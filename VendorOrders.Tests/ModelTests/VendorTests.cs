@@ -19,8 +19,8 @@ namespace VendorOrder.Tests
         public void VendorConstructor_SetsPropertiesToArgumentsPassed_VendorProperties()
         {
             Vendor newVendor = new Vendor("testName", "testDescription");
-            Assert.AreEqual(newVendor.Name, "testName");
-            Assert.AreEqual(newVendor.Description, "testDescription");
+            Assert.AreEqual("testName", newVendor.Name) ;
+            Assert.AreEqual("testDescription", newVendor.Description);
         } 
     }
 }
