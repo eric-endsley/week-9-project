@@ -10,8 +10,8 @@ namespace VendorOrders.Models
 
         public Vendor(string name, string description)
         {
-            Name = "fail";
-            Description = "fail";
+            Name = name;
+            Description = description;
         }
     }
 }
