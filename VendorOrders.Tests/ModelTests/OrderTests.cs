@@ -58,6 +58,14 @@ namespace VendorOrders.Tests
 
             CollectionAssert.AreEqual(emptyList, result);
         }
+        [TestMethod]
+        public void GetId_ConstructorAssignsGettableID_OrderId()
+        {
+            Order newOrder = new Order("", "", "", 3);
+            int result = newOrder.Id;
+
+            Assert.AreEqual(1, result);
+        }
 
     }
 }
