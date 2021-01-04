@@ -13,7 +13,14 @@ namespace VendorOrder.Tests
         {
             Vendor newVendor = new Vendor("", "");
             Assert.AreEqual(typeof(Vendor), newVendor.GetType());
-
         }
+
+        [TestMethod]
+        public void VendorConstructor_SetsPropertiesToArgumentsPassed_VendorProperties()
+        {
+            Vendor newVendor = new Vendor("testName", "testDescription");
+            Assert.AreEqual(newVendor.Name, "testName");
+            Assert.AreEqual(newVendor.Description, "testDescription");
+        } 
     }
 }
