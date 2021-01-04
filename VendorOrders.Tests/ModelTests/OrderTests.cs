@@ -30,6 +30,11 @@ namespace VendorOrders.Tests
             Assert.AreEqual(1, newOrder.Price);
         }
 
-        
+        public void GetAll_ReturnsEmptyList_OrderList()
+        {
+            List<Order> newList = new List<Order> { };
+            List<Order> result = Order.GetAll();
+            Assert.AreEqual(newList, result)
+        }
     }
 }
