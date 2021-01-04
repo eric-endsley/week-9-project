@@ -41,7 +41,18 @@ namespace VendorOrder.Tests
             List<Vendor> result = Vendor.GetAll();
             List<Vendor> emptyList = new List<Vendor> { };
 
-            CollectionAssert.AreEqual(result, emptyList);
+            CollectionAssert.AreEqual(emptyList, result);
+        }
+
+        public void GetAll_ReturnsListOfAllVendors_VendorList()
+        {
+            Vendor newVendor1 = new Vendor("test", "test");
+            Vendor newVendor2 = new Vendor("test2", "test2");
+            List<Vendor> testList = new List<Vendor> { newVendor1, newVendor2 };
+
+            List<Vendor> result = Vendor.GetAll();
+
+            Assert.AreEqual(testList, result);
         }
     }
 }
