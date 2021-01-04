@@ -1,3 +1,11 @@
 @{
     Layout = "_Layout";
 }
+
+@using VendorOrders.Models;
+
+<h1>@Model["order"].Title details</h1>
+<h2>Vendor: <a href='/vendors/@Model["vendor"].Id'>@Model["vendor"].Name</a></h2>
+
+
+<h2></h2>
