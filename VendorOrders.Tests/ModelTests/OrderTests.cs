@@ -66,6 +66,15 @@ namespace VendorOrders.Tests
 
             Assert.AreEqual(1, result);
         }
+        [TestMethod]
+        public void FindOrder_FindsCorrectOrder_Order()
+        {
+            Order newOrder = new Order("", "", "", 1);
+            Order newOrder2 = new Order("", "", "", 2);
 
+            result = Order.Find(2);
+
+            Assert.AreEqual(newOrder2, result);
+        }
     }
 }
