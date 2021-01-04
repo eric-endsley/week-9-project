@@ -12,3 +12,13 @@ C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\De
 C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.RazorTargetAssemblyInfo.cache
 C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.dll
 C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.pdb
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\bin\Debug\netcoreapp2.2\VendorOrders.Views.dll
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\bin\Debug\netcoreapp2.2\VendorOrders.Views.pdb
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.TagHelpers.input.cache
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.TagHelpers.output.cache
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.RazorCoreGenerate.cache
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.RazorTargetAssemblyInfo.cs
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.Views.pdb
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.csproj.CopyComplete

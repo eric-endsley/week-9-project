@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 
 namespace VendorOrders.Controllers
-[
+{
     public class HomeController : Controller
     {
         [HttpGet("/")]
@@ -10,4 +10,4 @@ namespace VendorOrders.Controllers
             return View();
         }
     }
-]
+}
