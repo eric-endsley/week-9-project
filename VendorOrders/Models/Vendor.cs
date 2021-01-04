@@ -16,6 +16,7 @@ namespace VendorOrders.Models
             Description = description;
             _instances.Add(this);
             Id = _instances.Count;
+            Orders = new List<Order> { };
         }
 
         public static List<Vendor> GetAll()
@@ -28,6 +29,10 @@ namespace VendorOrders.Models
             return _instances[inputId - 1];
         }
 
+        public void AddOrder(Order order)
+        {
+            Orders.Add(order);
+        }
         public static void ClearAll()
         {
             _instances.Clear();
