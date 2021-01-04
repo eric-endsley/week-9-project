@@ -1,0 +1,4 @@
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders.Tests\obj\Debug\netcoreapp2.2\VendorOrders.Tests.csprojAssemblyReference.cache
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders.Tests\obj\Debug\netcoreapp2.2\VendorOrders.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders.Tests\obj\Debug\netcoreapp2.2\VendorOrders.Tests.AssemblyInfoInputs.cache
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders.Tests\obj\Debug\netcoreapp2.2\VendorOrders.Tests.AssemblyInfo.cs

@@ -25,9 +25,9 @@ namespace VendorOrders.Tests
         {
             Order newOrder = new Order("test title", "test description", "test price", "test date");
             Assert.AreEqual("test title", newOrder.Title);
-            Assert.AreEqual("test description", newOrder.Description)
-            Assert.AreEqual("test price", newOrder.Price)
-            Assert.AreEqual("test date", newOrder.Date)
+            Assert.AreEqual("test description", newOrder.Description);
+            Assert.AreEqual("test price", newOrder.Price);
+            Assert.AreEqual("test date", newOrder.Date);
         }
         
     }
