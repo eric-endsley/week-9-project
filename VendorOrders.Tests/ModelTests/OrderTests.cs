@@ -29,12 +29,23 @@ namespace VendorOrders.Tests
             Assert.AreEqual("test date", newOrder.Date);
             Assert.AreEqual(1, newOrder.Price);
         }
-
+        [TestMethod]
         public void GetAll_ReturnsEmptyList_OrderList()
         {
             List<Order> newList = new List<Order> { };
             List<Order> result = Order.GetAll();
-            Assert.AreEqual(newList, result)
+            Assert.AreEqual(newList, result);
         }
+        [TestMethod]
+        public void ClearAll_ClearsListOfOrders_Void()
+        {
+            Order newOrder = new Order("", "", "", 3);
+            List<Order> emptyList = new List<Order> { };
+
+            Order.ClearAll();
+
+            Assert.AreEqual(emptyList, _instances)
+        }
+
     }
 }
