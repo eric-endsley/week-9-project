@@ -10,8 +10,8 @@ namespace VendorOrders.Controllers
         [HttpGet("/vendors/{vendorId}/orders/new")]
         public ActionResult New(int vendorId)
         {
-        Vendor vendor = Vendor.Find(vendorId);
-        return View(vendor);
+            Vendor vendor = Vendor.Find(vendorId);
+            return View(vendor);
         }
     }
 }
