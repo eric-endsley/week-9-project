@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
 using VendorOrders.Models;
 
@@ -13,7 +12,7 @@ namespace VendorOrders.Controllers
             List<Vendor> allVendors = Vendor.GetAll();
             return View(allVendors);
         }
-        
+
         [HttpGet("/vendors/new")]
         public ActionResult New()
         {
