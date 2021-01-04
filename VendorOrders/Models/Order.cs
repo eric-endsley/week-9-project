@@ -8,9 +8,16 @@ namespace VendorOrders.Models
         public string Description { get; set; }
         public string Date { get; set; }
         public int Price { get; private set; }
-        public int Id { get; }
         private static List<Order> _instances = new List<Order> { };
     }
 
-    Order() 
+    public Order(string title, string description, string date, int price)
+    {
+        Title = title;
+        Description = description;
+        Date = date;
+        Price = price;
+        _instances.Add(this);
+        
+    }
 }
