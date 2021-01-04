@@ -41,7 +41,7 @@ namespace VendorOrder.Tests
             List<Vendor> result = Vendor.GetAll();
             List<Vendor> emptyList = new List<Vendor> { };
 
-            Assert.AreEqual(result, emptyList);
+            CollectionAssert.AreEqual(result, emptyList);
         }
     }
 }
