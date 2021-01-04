@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace VendorOrders
+{
   public class Startup
   {
     public Startup(IHostingEnvironment env)
