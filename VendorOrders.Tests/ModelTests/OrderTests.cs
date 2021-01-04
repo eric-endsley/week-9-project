@@ -6,29 +6,30 @@ using System;
 namespace VendorOrders.Tests
 {
     [TestClass]
-    public class OrderTests : IDisposable
+    public class OrderTests /*: IDisposable*/
     {
-        public void Dispose()
-        {
-            Vendor.ClearAll();
-        }
+        // public void Dispose()
+        // {
+        //     Order.ClearAll();
+        // }
 
         [TestMethod]
         public void OrderConstructor_CreatesInstanceOfOrder_Order()
         {
-            Order newOrder = new Order("", "", "", "");
-            Assert.AreEqual(typeof(Order), newOrder.GetType());
+            Order newOrder = new Order("", "", "", 1);
+            Assert.AreEqual(typeof(int), newOrder.GetType());
         }
 
         [TestMethod]
         public void OrderConstructor_SetsPropertiesToArgumentsPassed_OrderProperties()
         {
-            Order newOrder = new Order("test title", "test description", "test price", "test date");
+            Order newOrder = new Order("test title", "test description", "test date", 1);
             Assert.AreEqual("test title", newOrder.Title);
             Assert.AreEqual("test description", newOrder.Description);
-            Assert.AreEqual("test price", newOrder.Price);
             Assert.AreEqual("test date", newOrder.Date);
+            Assert.AreEqual(1, newOrder.Price);
         }
+
         
     }
 }
