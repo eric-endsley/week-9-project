@@ -15,7 +15,7 @@ namespace VendorOrders.Models
             Name = name;
             Description = description;
             _instances.Add(this);
-            Id = _instances.Count + 1;
+            Id = _instances.Count;
         }
 
         public static void ClearAll()
