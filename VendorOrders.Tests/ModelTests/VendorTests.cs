@@ -61,9 +61,9 @@ namespace VendorOrder.Tests
             Vendor newVendor1 = new Vendor("test", "test");
             Vendor newVendor2 = new Vendor("test2", "test2");
 
-            Vendor result = Vendor.Find(2)
+            Vendor result = Vendor.Find(2);
 
-            Assert.AreEqual(newVendor2, result)
+            Assert.AreEqual(newVendor2, result);
         }
     }
 }
