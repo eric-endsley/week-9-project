@@ -20,7 +20,6 @@ namespace VendorOrders.Models
 
         public static List<Vendor> GetAll()
         {
-            Vendor newVendor = new Vendor("fail", "fail");
             return _instances;
         }
 
