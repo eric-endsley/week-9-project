@@ -15,3 +15,5 @@ C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders.Tests\
 C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders.Tests\obj\Debug\netcoreapp2.2\VendorOrders.Tests.csproj.CopyComplete
 C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders.Tests\obj\Debug\netcoreapp2.2\VendorOrders.Tests.dll
 C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders.Tests\obj\Debug\netcoreapp2.2\VendorOrders.Tests.pdb
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders.Tests\bin\Debug\netcoreapp2.2\VendorOrders.Views.dll
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders.Tests\bin\Debug\netcoreapp2.2\VendorOrders.Views.pdb
