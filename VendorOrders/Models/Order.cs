@@ -21,7 +21,9 @@ namespace VendorOrders.Models
 
         public static List<Order> GetAll()
         {
-            return _instances; 
+            Order fail = new Order("", "", "", 1);
+            List<Order> failure = new List<Order> { fail };
+            return failure; 
         }
 
         public static void ClearAll()
