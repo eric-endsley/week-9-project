@@ -45,7 +45,7 @@ namespace VendorOrders.Controllers
             List<Order> vendorOrders = currentVendor.Orders;
             model.Add("vendor", currentVendor);
             model.Add("orders", vendorOrders);
-            RedirectToAction("Show", model);
+            return View("Show", model);
         }
     }
 }
