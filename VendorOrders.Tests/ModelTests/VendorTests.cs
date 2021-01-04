@@ -27,6 +27,7 @@ namespace VendorOrder.Tests
             Assert.AreEqual("testName", newVendor.Name) ;
             Assert.AreEqual("testDescription", newVendor.Description);
         } 
+        
         [TestMethod]
         public void GetId_ConstructorAssignsGettableID_VendorId()
         {
@@ -35,6 +36,7 @@ namespace VendorOrder.Tests
 
             Assert.AreEqual(1, result);
         }
+
         [TestMethod]
         public void GetAll_ReturnsEmptyList_VendorList()
         {
@@ -43,6 +45,7 @@ namespace VendorOrder.Tests
 
             CollectionAssert.AreEqual(emptyList, result);
         }
+
         [TestMethod]
         public void GetAll_ReturnsListOfAllVendors_VendorList()
         {
@@ -65,6 +68,7 @@ namespace VendorOrder.Tests
 
             Assert.AreEqual(newVendor2, result);
         }
+
         [TestMethod]
         public void AddOrder_AddsOrderToOrdersListProperty_Order()
         {

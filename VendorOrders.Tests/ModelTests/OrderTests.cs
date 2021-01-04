@@ -29,6 +29,7 @@ namespace VendorOrders.Tests
             Assert.AreEqual("test date", newOrder.Date);
             Assert.AreEqual(1, newOrder.Price);
         }
+
         [TestMethod]
         public void GetAll_ReturnsEmptyList_OrderList()
         {
@@ -36,6 +37,7 @@ namespace VendorOrders.Tests
             List<Order> result = Order.GetAll();
             CollectionAssert.AreEqual(newList, result);
         }
+
         [TestMethod]
         public void GetAll_ReturnsListOfOrders_OrderList()
         {
@@ -58,6 +60,7 @@ namespace VendorOrders.Tests
 
             CollectionAssert.AreEqual(emptyList, result);
         }
+
         [TestMethod]
         public void GetId_ConstructorAssignsGettableID_OrderId()
         {
@@ -66,6 +69,7 @@ namespace VendorOrders.Tests
 
             Assert.AreEqual(1, result);
         }
+        
         [TestMethod]
         public void FindOrder_FindsCorrectOrder_Order()
         {
