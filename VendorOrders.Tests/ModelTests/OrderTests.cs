@@ -46,7 +46,7 @@ namespace VendorOrders.Tests
 
             CollectionAssert.AreEqual(newOrderList, result);
         }
-        
+
         [TestMethod]
         public void ClearAll_ClearsListOfOrders_Void()
         {

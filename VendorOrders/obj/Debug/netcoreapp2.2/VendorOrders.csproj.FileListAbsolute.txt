@@ -1,0 +1,14 @@
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\bin\Debug\netcoreapp2.2\VendorOrders.deps.json
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\bin\Debug\netcoreapp2.2\VendorOrders.runtimeconfig.json
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\bin\Debug\netcoreapp2.2\VendorOrders.runtimeconfig.dev.json
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\bin\Debug\netcoreapp2.2\VendorOrders.dll
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\bin\Debug\netcoreapp2.2\VendorOrders.pdb
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.csprojAssemblyReference.cache
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.csproj.CoreCompileInputs.cache
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.RazorAssemblyInfo.cache
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.RazorAssemblyInfo.cs
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.AssemblyInfoInputs.cache
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.AssemblyInfo.cs
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.RazorTargetAssemblyInfo.cache
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.dll
+C:\Users\Eric Endsley\OneDrive\Desktop\VendorOrders.Solution\VendorOrders\obj\Debug\netcoreapp2.2\VendorOrders.pdb
