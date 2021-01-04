@@ -43,7 +43,7 @@ namespace VendorOrder.Tests
 
             CollectionAssert.AreEqual(emptyList, result);
         }
-
+        [TestMethod]
         public void GetAll_ReturnsListOfAllVendors_VendorList()
         {
             Vendor newVendor1 = new Vendor("test", "test");
@@ -52,7 +52,7 @@ namespace VendorOrder.Tests
 
             List<Vendor> result = Vendor.GetAll();
 
-            Assert.AreEqual(testList, result);
+            CollectionAssert.AreEqual(testList, result);
         }
     }
 }
