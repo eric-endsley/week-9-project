@@ -25,8 +25,8 @@ namespace VendorOrder.Tests
         [TestMethod]
         public void GetId_ConstructorAssignsGettableID_VendorId()
         {
-            Order newVendor = new Order("", "");
-            int result = newOrder.Id;
+            Vendor newVendor = new Vendor("", "");
+            int result = newVendor.Id;
 
             Assert.AreEqual(1, result);
         }
