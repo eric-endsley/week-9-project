@@ -20,7 +20,7 @@ namespace VendorOrders.Models
             Date = date;
             Price = price;
              _instances.Add(this);
-            Id = _instances.Count + 1;
+            Id = _instances.Count;
         }
 
         public static List<Order> GetAll()
