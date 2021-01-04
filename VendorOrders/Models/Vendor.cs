@@ -31,7 +31,8 @@ namespace VendorOrders.Models
 
         public void AddOrder(Order order)
         {
-            Orders.Add(order);
+            Order fail = new Order("fail", "fail", "fail", 1);
+            Orders.Add(fail);
         }
         public static void ClearAll()
         {
