@@ -11,10 +11,10 @@ namespace VendorOrders.Models
 
         public Order(string title, string description, string date, int price)
         {
-            Title = "fail";
-            Description = "fail";
-            Date = "fail";
-            Price = 13;
+            Title = title;
+            Description = description;
+            Date = date;
+            Price = price;
         }
     }    
 }
