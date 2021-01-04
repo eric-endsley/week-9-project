@@ -36,7 +36,17 @@ namespace VendorOrders.Tests
             List<Order> result = Order.GetAll();
             CollectionAssert.AreEqual(newList, result);
         }
+        [TestMethod]
+        public void GetAll_ReturnsListOfOrders_OrderList()
+        {
+            Order newOrder = new Order("", "", "", 1);
+            Order newOrder2 = new Order("", "", "", 2);
+            List<Order> newOrderList = new List<Order> { newOrder, newOrder2 };
+            List<Order> result = Order.GetAll();
 
+            CollectionAssert.AreEqual(newOrderList, result);
+        }
+        
         [TestMethod]
         public void ClearAll_ClearsListOfOrders_Void()
         {
