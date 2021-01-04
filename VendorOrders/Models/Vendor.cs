@@ -18,6 +18,12 @@ namespace VendorOrders.Models
             Id = _instances.Count;
         }
 
+        public static List<Vendor> GetAll()
+        {
+            Vendor newVendor = new Vendor("fail", "fail");
+            return _instances;
+        }
+
         public static void ClearAll()
         {
             _instances.Clear();
