@@ -22,5 +22,13 @@ namespace VendorOrder.Tests
             Assert.AreEqual("testName", newVendor.Name) ;
             Assert.AreEqual("testDescription", newVendor.Description);
         } 
+        [TestMethod]
+        public void GetId_ConstructorAssignsGettableID_VendorId()
+        {
+            Order newVendor = new Order("", "");
+            int result = newOrder.Id;
+
+            Assert.AreEqual(1, result);
+        }
     }
 }
