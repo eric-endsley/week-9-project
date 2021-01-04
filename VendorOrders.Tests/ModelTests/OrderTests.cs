@@ -6,12 +6,12 @@ using System;
 namespace VendorOrders.Tests
 {
     [TestClass]
-    public class OrderTests /*: IDisposable*/
+    public class OrderTests : IDisposable
     {
-        // public void Dispose()
-        // {
-        //     Order.ClearAll();
-        // }
+        public void Dispose()
+        {
+            Order.ClearAll();
+        }
 
         [TestMethod]
         public void OrderConstructor_CreatesInstanceOfOrder_Order()
@@ -34,7 +34,7 @@ namespace VendorOrders.Tests
         {
             List<Order> newList = new List<Order> { };
             List<Order> result = Order.GetAll();
-            Assert.AreEqual(newList, result);
+            CollectionAssert.AreEqual(newList, result);
         }
         [TestMethod]
         public void ClearAll_ClearsListOfOrders_Void()
@@ -43,8 +43,9 @@ namespace VendorOrders.Tests
             List<Order> emptyList = new List<Order> { };
 
             Order.ClearAll();
+            List<Order> result = Order.GetAll();
 
-            Assert.AreEqual(emptyList, _instances)
+            CollectionAssert.AreEqual(emptyList, result);
         }
 
     }
