@@ -22,7 +22,7 @@ namespace VendorOrders.Controllers
         public ActionResult Create(string vendorName, string vendorDescription)
         {
             Vendor newVendor = new Vendor(vendorName, vendorDescription);
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Home");
         }
 
         [HttpGet("/vendors/{id}")]
