@@ -12,7 +12,7 @@ namespace VendorOrder.Tests
         public void VendorConstructor_CreatesInstanceOfVendor_Vendor()
         {
             Vendor newVendor = new Vendor("", "");
-            Assert.AreEqual(typeof(int), newVendor.GetType());
+            Assert.AreEqual(typeof(Vendor), newVendor.GetType());
 
         }
     }
